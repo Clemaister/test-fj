@@ -72,6 +72,14 @@ app.on('ready', function () {
 	autoUpdater.checkForUpdates();
 });
 
+autoUpdater.addListener("update-available", function(event) {
+	console.log('NEW UPDATE AVAILABLE !')
+});
+
+autoUpdater.addListener("update-not-available", function() {
+	console.log('No update available...')
+});
+
 // when the update has been downloaded and is ready to be installed, notify the BrowserWindow
 autoUpdater.on('update-downloaded', (info) => {
     mainWindow.webContents.send('updateReady');
