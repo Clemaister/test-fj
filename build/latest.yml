@@ -1,0 +1,8 @@
+version: 1.0.1
+files:
+  - url: test-fj-setup-1.0.1.exe
+    sha512: M+7cMoqzM+EZG1aIv6RBM0xzJBd7yLrYCQh3IspolDAYUWmZDtUWiIB430EKQcChpqh9N9JpA1k5TpX6tRuDhw==
+    size: 36358985
+path: test-fj-setup-1.0.1.exe
+sha512: M+7cMoqzM+EZG1aIv6RBM0xzJBd7yLrYCQh3IspolDAYUWmZDtUWiIB430EKQcChpqh9N9JpA1k5TpX6tRuDhw==
+releaseDate: '2018-08-03T10:44:06.126Z'

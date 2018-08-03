@@ -16,7 +16,7 @@
 		"typescript",
 		"sass"
 	],
-	"author": "株式会社プロス",
+	"author": "Clemaister",
 	"license": "",
 	"main": "electron.js",
 	"scripts": {
