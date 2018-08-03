@@ -1,0 +1,1444 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "code": "fastcd1",
+      "name": "株式会社タイムリコーダー認証なし"
+    },
+    {
+      "id": 2,
+      "code": "fastcd2",
+      "name": "株式会社タイムリコーダー静脈認証"
+    },
+    {
+      "id": 3,
+      "code": "fastcd3",
+      "name": "株式会社タイムリコーダーFelica認証"
+    },
+    {
+      "id": 4,
+      "code": "fastcd4",
+      "name": "株式会社タイムリコーダー30回認証なし"
+    },
+    {
+      "id": 5,
+      "code": "fastcd5",
+      "name": "株式会社タイムリコーダー30回静脈認証"
+    },
+    {
+      "id": 6,
+      "code": "fastcd6",
+      "name": "株式会社タイムリコーダー30回Felica認証"
+    },
+    {
+      "id": 7,
+      "code": "fastcd7",
+      "name": "株式会社カスタマイズタイムリコーダー"
+    },
+    {
+      "id": 8,
+      "code": "fastcd8",
+      "name": "株式会社カスタマイズタイムリコーダー30回"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "store_id": 1,
+      "host": "http://www1",
+      "userID": "fastcd1",
+      "companyID": "fastcd1",
+      "password": "fastcd1",
+      "timeRecorder": "normal",
+      "authMode": "normal"
+    },
+    {
+      "id": 2,
+      "store_id": 1,
+      "host": "http://www2",
+      "userID": "fastcd2",
+      "companyID": "fastcd2",
+      "password": "fastcd2",
+      "timeRecorder": "normal",
+      "authMode": "vein"
+    },
+    {
+      "id": 3,
+      "store_id": 2,
+      "host": "http://www3",
+      "userID": "fastcd3",
+      "companyID": "fastcd3",
+      "password": "fastcd3",
+      "timeRecorder": "normal",
+      "authMode": "felica"
+    },
+    {
+      "id": 4,
+      "store_id": 2,
+      "host": "http://www4",
+      "userID": "fastcd4",
+      "companyID": "fastcd4",
+      "password": "fastcd4",
+      "timeRecorder": "normal30",
+      "authMode": "normal"
+    },
+    {
+      "id": 5,
+      "store_id": 2,
+      "host": "http://www5",
+      "userID": "fastcd5",
+      "companyID": "fastcd5",
+      "password": "fastcd5",
+      "timeRecorder": "normal30",
+      "authMode": "vein"
+    },
+    {
+      "id": 6,
+      "store_id": 2,
+      "host": "http://www6",
+      "userID": "fastcd6",
+      "companyID": "fastcd6",
+      "password": "fastcd6",
+      "timeRecorder": "normal30",
+      "authMode": "felica"
+    },
+    {
+      "id": 7,
+      "store_id": 1,
+      "host": "http://www7",
+      "userID": "fastcd7",
+      "companyID": "fastcd7",
+      "password": "fastcd7",
+      "timeRecorder": "customize"
+    },
+    {
+      "id": 8,
+      "store_id": 1,
+      "host": "http://www8",
+      "userID": "fastcd8",
+      "companyID": "fastcd8",
+      "password": "fastcd8",
+      "timeRecorder": "customize30"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "code": "0000001",
+      "name": "東京レストラン",
+      "kata": "トウキョウレストラン",
+      "sales": "100000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "0000002",
+      "name": "花レストラン",
+      "kata": "ハナレストラン",
+      "sales": "110000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "code": "0000003",
+      "name": "まんたレストラン",
+      "kata": "マンタレストラン",
+      "sales": "120000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "code": "0000004",
+      "name": "チリレストラン",
+      "kata": "チリレストラン",
+      "sales": "130000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "code": "0000005",
+      "name": "食べ物レストラン",
+      "kata": "タベモノレストラン",
+      "sales": "140000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "code": "0000006",
+      "name": "仏蘭西レストラン",
+      "kata": "フランスレストラン",
+      "sales": "150000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "code": "0000007",
+      "name": "真里菜レストラン",
+      "kata": "マリナレストラン",
+      "sales": "160000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "code": "0000008",
+      "name": "ラーメン屋",
+      "kata": "ラーメンヤ",
+      "sales": "170000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "code": "0000009",
+      "name": "味噌汁レストラン",
+      "kata": "ミソシルレストラン",
+      "sales": "180000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "code": "0000010",
+      "name": "仙台レストラン",
+      "kata": "センダイレストラン",
+      "sales": "190000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "code": "0000011",
+      "name": "ゾロレストラン",
+      "kata": "ゾロレストラン",
+      "sales": "200000",
+      "rooms": [
+        {
+          "id": 1,
+          "code": "RO001",
+          "name": "001"
+        },
+        {
+          "id": 2,
+          "code": "RO002",
+          "name": "002"
+        },
+        {
+          "id": 3,
+          "code": "RO003",
+          "name": "003"
+        },
+        {
+          "id": 4,
+          "code": "RO004",
+          "name": "004"
+        },
+        {
+          "id": 5,
+          "code": "RO005",
+          "name": "005"
+        },
+        {
+          "id": 6,
+          "code": "RO006",
+          "name": "006"
+        },
+        {
+          "id": 7,
+          "code": "RO007",
+          "name": "007"
+        },
+        {
+          "id": 8,
+          "code": "RO008",
+          "name": "008"
+        }
+      ]
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "code": "100001",
+      "name": "Staff 1-1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "store_id": 1,
+      "section": "section_2",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": true,
+      "vein_data": "IBQ3AAIBZAMAAABANwACAeIHBxoQFQkAAAAAAAAANwACAQAAAAAAAAAAAAAAAAAA\r\nAAAAAA==\r\n@Ix1YTMntwWSkYPDqpPM3Cb6cgB7xTJl1xgGRSRdaZvKn7FpU/KV6wtSasYhZhojF\r\nnaHm7fWoIdY2OkrtyywXOneUmY2KTLMtHIg9M4WmglC6cNu115GPfIZ22LJwsMj+\r\n14SAwBSHKPu36GRAnZIQcInpWc0SVhGWDywAPAe1VVy68H27Ob6HcGX4AZllQ4P/\r\nPkZpg9e9uDyt29e2b5K/TiOt8HJHThdWndLoJaz8zjLPyfjOmDPlvcntu4yM1uuB\r\nmNQyTo4BGRBhL0HprkJOkSsfa5A+y34fzfvs9m64T26p7Hqm8tAksOeSq8TWn+f/\r\nbc4qEnRyXelobAq303kXrGjluG0dhmfzGwq/OOs1RwY7BFknKbMxQdEJ5yElb/5V\r\najGGNkKad7TZLbX8xXhVXkyr2S/pbafta/QWwcuU3on9UV9FUAsbiDzCl+Qxz/Pj\r\nm1GJFaEbEZr82tObQrfW9FWbx0i6bnYsNW1eC41+lxT6pAiXBN+y5xHhqs4oby7V\r\nz686FDf13WfONQZR/mxt9PK3sRjkSOrtb7kbha5jzbHiJ5jTqgcayFyy7vsCJMkE\r\nPim9N/zLLl6BdoPCD9Omrz6w4wZXewBMSwlWceSKtNmks6IkA2r2l5xED81/1Z85\r\nAZYzYaAXFpXY+fK8wN8cyMCnE01z8kRbkSO8LcSkG1spnN30Fxx1N2BN2964tN3p\r\n@",
+      "felica": true,
+      "felica_data": {
+        "atr": {
+          "type": "Buffer",
+          "data": [
+            59,
+            143,
+            128,
+            1,
+            128,
+            79,
+            12,
+            160,
+            0,
+            0,
+            3,
+            6,
+            17,
+            0,
+            59,
+            0,
+            0,
+            0,
+            0,
+            66
+          ]
+        },
+        "standard": "TAG_ISO_14443_3",
+        "type": "TAG_ISO_14443_3"
+      },
+      "password": true,
+      "password_data": "test",
+      "updatedTimestamp": 1532677692688
+    },
+    {
+      "id": 2,
+      "code": "100002",
+      "name": "Staff 1-2",
+      "store_id": 1,
+      "section": "section_1",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": true,
+      "vein_data": "IBQ3AAIBZAMAAABANwACAeIHBxoQMi8AAAAAAAAANwACAQAAAAAAAAAAAAAAAAAA\r\nAAAAAA==\r\n@UBYtVAv+7cNX7g2exSaSe+siR71qUKUXumtfeaWzOZRON1s7q3NnUL99ioBOub2l\r\nOXJhZbV6m3XzPeXLLsS2c5QB3QZnb4tG89+HearRSu/Wni6VpiRBKWv5zZI2MgAO\r\ngjt9fJTeV4KMuPZJ+AQ+mIr00++4kt/YxZjxG9uor7UeLcTw51wCDkrzvIrkzcXP\r\nYy5+3LFl2IXsxylktwzO57iH6R3gD5z2NojJwtLZeXF2JcEYHHD8PuEaP1OHPllt\r\ngePVt0HG51ppPiwrVXRcx6PU+wolGt8R4Q8ExQ5U4duuqb0F64xTUsJaR1p6fiib\r\ns9DVsM+kywgPvsv1STXiN8LJDZFeANbnwxYEYulOtC8j1Yf9FgNWLTdWpPBGzE6G\r\ngq45iioG7bbIDzqbCytdz5C+h/+xYwZPmSfjVdrkZEzuAC8LwYrDoO/MQqioxT8D\r\nqnNeYgd19EeoUNIBs2JMVaVFwIaA4y5bcyAErl3Z6aoOC+X1BIorzpfzr+pKZVLY\r\noN13WCudfJLQ3Vg/9vrgauR7i6MWBvSj9AetjliDOxE04JjCvmdiAaFZUC1bzUL7\r\n7+t3+GPgst4mF/gjqJcyrDg+YVMP9SdXViag7dhffs4EbuZVk+RY2iCZQOwieqc1\r\nDMr+7NPPV52R/ka5RMlxuS5llDoNrtE6dArplOFnoV+dkWwKAEN/6KIudrP8gcRF\r\n@",
+      "felica": true,
+      "felica_data": {
+        "atr": {
+          "type": "Buffer",
+          "data": [
+            59,
+            143,
+            128,
+            1,
+            128,
+            79,
+            12,
+            160,
+            0,
+            0,
+            3,
+            6,
+            3,
+            255,
+            222,
+            0,
+            0,
+            0,
+            0,
+            74
+          ]
+        },
+        "standard": "TAG_ISO_14443_3",
+        "type": "TAG_ISO_14443_3"
+      },
+      "password": true,
+      "password_data": "tete",
+      "updatedTimestamp": 1532677752752
+    },
+    {
+      "id": 3,
+      "code": "100003",
+      "name": "Staff 1-3aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "store_id": 1,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": false,
+      "felica_data": "",
+      "password": true,
+      "password_data": "bebe"
+    },
+    {
+      "id": 4,
+      "code": "100004",
+      "name": "Staff 1-4",
+      "store_id": 1,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": false,
+      "felica_data": "",
+      "password": true,
+      "password_data": "bebe"
+    },
+    {
+      "id": 5,
+      "code": "100005",
+      "name": "Staff 1-5",
+      "store_id": 1,
+      "section": "section_2",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "bebe",
+      "updatedTimestamp": 1532529970529
+    },
+    {
+      "id": 6,
+      "code": "100006",
+      "name": "Staff 1-6 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "store_id": 1,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 7,
+      "code": "100007",
+      "name": "Staff 1-7",
+      "store_id": 1,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 8,
+      "code": "100008",
+      "name": "Staff 1-8",
+      "store_id": 1,
+      "section": "section_2",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "bebe",
+      "updatedTimestamp": 1532529853463
+    },
+    {
+      "id": 9,
+      "code": "100009",
+      "name": "Staff 1-9",
+      "store_id": 1,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": false,
+      "felica_data": "something",
+      "password": false,
+      "password_data": ""
+    },
+    {
+      "id": 10,
+      "code": "100010",
+      "name": "Staff 2-1",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": true,
+      "vein_data": "IBQ3AAIBZAMAAABANwACAeIHBxoQHQ0AAAAAAAAANwACAQAAAAAAAAAAAAAAAAAA\r\nAAAAAA==\r\n@xIhrecZHcZYCh655wsl4fVVyUAD5k4OjC8EZARbi4iKpiJbx24ckmw1QkoHmou8z\r\nl7mB2EFdeQ3Arux9xDouAdedxMT4zuWmQY+iSlFHY8/SSyHvyFOmDUnmN4OLW3t1\r\njuXh7K2lKIQZoXG4sPKSV6ncL5i8uCVa7CzoKlzrS5Igjd+Q7sGGlyf1H3Sq3T2F\r\nyHODMAoIm0sosI/1jVv+/YqZH37sbxxOcIWr+y4XZ5SSwckNZ3CK3yw8M9iX4U00\r\nxSQi+oq1wibQJFg/d8Kt/V9E+DDF1ZOA5fmweCOkQps9b/IQTNGl7Og82cfM3MG3\r\nbzO1G8uHLU8yUdn7PMSshefeCMj/W1DQs+CWq8nObPPC+5G+BtVwvIdwRq0LgB8d\r\nSsIGmlomF8sq5cQ4ikko6LRpQuSITY6A7FVCTHdlUzv781V4jOozmu41q1ccy5j4\r\nxcII+5XC+Nt6mw78v/K10RncvWAE6SBaBaRAmlkdawN5Cm6DSMopqMdiBCdiOSv2\r\nirtf4arExx6n/CmA4EUZptKlUdkGngqTXbrWX2edddVrXK1zdfxN5mUApzc2Wocb\r\nuXHBOi72gEPgXoYMlbpRmDWNGep/epncLLkZjT4AcyMCn36LFAwj6B3jzWpJkrms\r\nVHVjPSpKpRI/XFxxcRwbZv14XBM18sNxZLNJpLVFgF4MnJ8sUVyY6JLczI9HZOvD\r\n@",
+      "felica": true,
+      "felica_data": {
+        "atr": {
+          "type": "Buffer",
+          "data": [
+            59,
+            143,
+            128,
+            1,
+            128,
+            79,
+            12,
+            160,
+            0,
+            0,
+            3,
+            6,
+            17,
+            0,
+            59,
+            0,
+            0,
+            0,
+            0,
+            66
+          ]
+        },
+        "standard": "TAG_ISO_14443_3",
+        "type": "TAG_ISO_14443_3"
+      },
+      "password": true,
+      "password_data": "123456",
+      "updatedTimestamp": 1532679265963
+    },
+    {
+      "id": 11,
+      "code": "100011",
+      "name": "Staff 2-2",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": {
+        "atr": {
+          "type": "Buffer",
+          "data": [
+            59,
+            143,
+            128,
+            1,
+            128,
+            79,
+            12,
+            160,
+            0,
+            0,
+            3,
+            6,
+            3,
+            255,
+            222,
+            0,
+            0,
+            0,
+            0,
+            74
+          ]
+        },
+        "standard": "TAG_ISO_14443_3",
+        "type": "TAG_ISO_14443_3"
+      },
+      "password": false,
+      "password_data": "123456",
+      "updatedTimestamp": 1532680413844
+    },
+    {
+      "id": 12,
+      "code": "100012",
+      "name": "Staff 2-3",
+      "store_id": 2,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 13,
+      "code": "100013",
+      "name": "Staff 2-4",
+      "store_id": 2,
+      "section": "section_2",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 14,
+      "code": "100014",
+      "name": "Staff 2-5",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "",
+      "password": false,
+      "password_data": "123456"
+    },
+    {
+      "id": 15,
+      "code": "100015",
+      "name": "Staff 2-6",
+      "store_id": 2,
+      "section": "section_2",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 16,
+      "code": "100016",
+      "name": "Staff 2-7",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 17,
+      "code": "100017",
+      "name": "Staff 2-8",
+      "store_id": 2,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 18,
+      "code": "100018",
+      "name": "Staff 2-10",
+      "store_id": 2,
+      "section": "section_2",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 19,
+      "code": "100019",
+      "name": "Staff 2-11",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 20,
+      "code": "100020",
+      "name": "Staff 2-12",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 21,
+      "code": "100021",
+      "name": "Staff 2-13",
+      "store_id": 2,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 22,
+      "code": "100022",
+      "name": "Staff 2-14",
+      "store_id": 2,
+      "section": "section_2",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 23,
+      "code": "100023",
+      "name": "Staff 2-15",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 24,
+      "code": "100024",
+      "name": "Staff 2-16",
+      "store_id": 2,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 25,
+      "code": "100025",
+      "name": "Staff 2-17",
+      "store_id": 2,
+      "section": "section_2",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 26,
+      "code": "100026",
+      "name": "Staff 3-1",
+      "store_id": 3,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "test",
+      "updatedTimestamp": 1532521466135
+    },
+    {
+      "id": 27,
+      "code": "100027",
+      "name": "Staff 3-2",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 28,
+      "code": "100028",
+      "name": "Staff 3-3",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 29,
+      "code": "100029",
+      "name": "Staff 3-4",
+      "store_id": 3,
+      "section": "section_2",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 30,
+      "code": "100030",
+      "name": "Staff 3-5",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 31,
+      "code": "100031",
+      "name": "Staff 3-6",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 32,
+      "code": "100032",
+      "name": "Staff 3-7",
+      "store_id": 3,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 33,
+      "code": "100033",
+      "name": "Staff 3-8",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 34,
+      "code": "100034",
+      "name": "Staff 3-10",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 35,
+      "code": "100035",
+      "name": "Staff 3-11",
+      "store_id": 3,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 36,
+      "code": "100036",
+      "name": "Staff 3-12",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 37,
+      "code": "100037",
+      "name": "Staff 3-13",
+      "store_id": 3,
+      "section": "section_2",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 38,
+      "code": "100038",
+      "name": "Staff 3-14",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 39,
+      "code": "100039",
+      "name": "Staff 3-15",
+      "store_id": 3,
+      "section": "section_1",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 40,
+      "code": "100040",
+      "name": "Staff 3-16",
+      "store_id": 3,
+      "section": "section_2",
+      "retired": 1,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": false,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    },
+    {
+      "id": 41,
+      "code": "100041",
+      "name": "Staff 3-17",
+      "store_id": 3,
+      "section": "section_3",
+      "retired": 0,
+      "owner": "Owner",
+      "vein": false,
+      "vein_data": "something",
+      "felica": true,
+      "felica_data": "something",
+      "password": true,
+      "password_data": "123456"
+    }
+  ],
+  "works": [],
+  "messages": [
+    {
+      "id": 1,
+      "store_id": 1,
+      "message": "テキストテキスト1"
+    },
+    {
+      "id": 2,
+      "store_id": 2,
+      "message": "テキストテキスト2"
+    },
+    {
+      "id": 3,
+      "store_id": 3,
+      "message": "テキストテキスト3"
+    },
+    {
+      "id": 4,
+      "store_id": 4,
+      "message": "テキストテキスト4"
+    },
+    {
+      "id": 5,
+      "store_id": 5,
+      "message": "テキストテキスト5"
+    },
+    {
+      "id": 6,
+      "store_id": 6,
+      "message": "テキストテキスト6"
+    },
+    {
+      "id": 7,
+      "store_id": 7,
+      "message": "テキストテキスト7"
+    },
+    {
+      "id": 8,
+      "store_id": 8,
+      "message": "テキストテキスト8"
+    }
+  ]
+}

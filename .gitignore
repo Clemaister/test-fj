@@ -1,0 +1,18 @@
+# compiled output
+dist/*
+electron.js
+
+# dependencies
+node_modules/*
+
+# ide
+.idea/*
+
+# miscellaneous
+npm-debug-log
+
+# config
+config.ini
+
+#package-lock
+package-lock.json

@@ -1,0 +1,134 @@
+{
+	"name": "test-fj",
+	"version": "1.0.1",
+	"description": "Test fj",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Clemaister/test-fj"
+	},
+	"build": {
+		"appId": "fooding.journal.v3",
+		"mac": {
+			"category": "management"
+		},
+		"directories": {
+			"output": "build"
+		},
+		"files": [
+			{
+				"from": "dist",
+				"to": "./"
+			},
+			{
+				"from": "dist/node_modules",
+				"to": "./node_modules"
+			},
+			"!node_modules",
+			"!dist",
+			"!src"
+		],
+		"publish": [
+			{
+				"provider": "github",
+				"owner": "clemaister",
+				"repo": "test-fj",
+				"token": "93e8ec1b415a0d63b6ca48d6d34d9dabe94c4e7a"
+			}
+		]
+	},
+	"keywords": [
+		"electron",
+		"angular",
+		"webpack",
+		"boilerplate",
+		"live reload",
+		"typescript",
+		"sass"
+	],
+	"author": "株式会社プロス",
+	"license": "",
+	"main": "electron.js",
+	"scripts": {
+		"dev": "tsc electron.ts --outDir . && npm-run-all -p start:webpack:mock:server",
+		"mock:server": "json-server --watch src/assets/data/db.json",
+		"start:webpack": "cross-env NODE_ENV=dev webpack-dev-server --port=4200",
+		"start:webpack:mock:server": "concurrently --kill-others \"npm run mock:server\" \"npm run start:webpack\"",
+		"compile": "webpack",
+		"electron:rebuild": "npm rebuild --runtime=electron --target=1.7.10 --disturl=https://atom.io/download/atom-shell --abi=54",
+		"packager": "node packager.js",
+		"build": "npm run packager --publish=false",
+		"release": "npm run packager --publish=true"
+	},
+	"devDependencies": {
+		"@ngx-translate/core": "9.1.1",
+		"@ngx-translate/http-loader": "2.0.1",
+		"@types/jasmine": "2.8.6",
+		"@types/jasminewd2": "2.0.3",
+		"electron": "1.7.10",
+		"clean-webpack-plugin": "^0.1.19",
+		"concurrently": "^3.5.1",
+		"copy-webpack-plugin": "^4.5.1",
+		"cross-env": "^5.1.4",
+		"css-loader": "^0.28.11",
+		"extract-loader": "^2.0.1",
+		"file-loader": "^1.1.11",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"img-loader": "^3.0.0",
+		"imagemin": "^5.3.1",
+		"lodash": "^4.17.10",
+		"node-sass": "^4.9.0",
+		"postcss-loader": "^2.1.5",
+		"raw-loader": "^0.5.1",
+		"resolve-url-loader": "^2.3.0",
+		"sass-loader": "^7.0.1",
+		"ts-loader": "^4.2.0",
+		"typescript": "^2.8.3",
+		"uglifyjs-webpack-plugin": "^1.2.5",
+		"underscore-template-loader": "^1.0.0",
+		"url-loader": "^1.0.1",
+		"webpack": "^4.7.0",
+		"webpack-cli": "^2.1.2",
+		"rxjs": "5.5.8",
+		"webpack-dev-server": "^3.1.4",
+		"npm-run-all": "4.1.2",
+		"json-server": "^0.12.2",
+		"electron-builder": "^20.26.1"
+	},
+	"optionalDependencies": {
+		"appdmg": "^0.5.2",
+		"electron-installer-debian": "^0.8.1",
+		"electron-installer-dmg": "^1.0.0",
+		"electron-squirrel-startup": "^1.0.0",
+		"electron-winstaller": "^2.6.4"
+	},
+	"dependencies": {
+		"@angular/common": "^5.0.0",
+		"@angular/compiler": "^5.0.0",
+		"@angular/core": "^5.0.0",
+		"@angular/forms": "5.2.9",
+		"@angular/http": "5.2.9",
+		"@angular/platform-browser": "^5.0.0",
+		"@angular/platform-browser-dynamic": "^5.0.0",
+		"@angular/router": "^5.0.0",
+		"@ng-bootstrap/ng-bootstrap": "^1.1.0",
+		"ajv": "^6.4.0",
+		"angular-in-memory-web-api": "^0.6.0",
+		"angular2-moment": "^1.9.0",
+		"bootstrap": "^4.1.1",
+		"core-js": "^2.5.5",
+		"electron-log": "^2.2.16",
+		"electron-updater": "^3.0.3",
+		"ffi": "^2.2.0",
+		"font-awesome": "^4.7.0",
+		"fs": "0.0.1-security",
+		"jquery": "^3.3.1",
+		"nfc-pcsc": "^0.6.2",
+		"ngx-fs": "0.0.1",
+		"popper.js": "^1.14.3",
+		"ref": "^1.3.5",
+		"reflect-metadata": "^0.1.12",
+		"update-electron-app": "^1.3.0",
+		"zone.js": "^0.8.26"
+	}
+}
