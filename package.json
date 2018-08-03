@@ -6,36 +6,6 @@
 		"type": "git",
 		"url": "https://github.com/Clemaister/test-fj"
 	},
-	"build": {
-		"appId": "test.fj",
-		"mac": {
-			"category": "management"
-		},
-		"directories": {
-			"output": "build"
-		},
-		"files": [
-			{
-				"from": "dist",
-				"to": "./"
-			},
-			{
-				"from": "dist/node_modules",
-				"to": "./node_modules"
-			},
-			"!node_modules",
-			"!dist",
-			"!src"
-		],
-		"publish": [
-			{
-				"provider": "github",
-				"owner": "Clemaister",
-				"repo": "test-fj",
-				"token": "93e8ec1b415a0d63b6ca48d6d34d9dabe94c4e7a"
-			}
-		]
-	},
 	"keywords": [
 		"electron",
 		"angular",
